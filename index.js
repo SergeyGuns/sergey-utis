@@ -1,2 +1,2 @@
-const brClean = require('./brclean.js')
-const translit= require('./translit.js')
+module.exports.brClean = require('./brclean.js').brClean
+module.exports.translit= require('./translit.js').translit

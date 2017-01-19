@@ -1,5 +1,5 @@
 //utilits
-module.export.translit = (str)=> {
+module.exports.translit = (str)=> {
   str = str.replace(/<br>/g , '_'); 
   // Символ, на который будут заменяться все спецсимволы
   var space = '';
