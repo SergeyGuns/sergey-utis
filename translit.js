@@ -97,5 +97,3 @@ function translit(str) {
   }
   return result;
 }
-
-export default translit
